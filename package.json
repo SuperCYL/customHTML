@@ -14,7 +14,7 @@
       "regular"
     ],
     "view": {
-      "width": "400",
+      "width": "800",
       "height": "200",
       "minWidth": "200",
       "minHeight": "100"
@@ -44,7 +44,10 @@
     "api_data": {
       "source": [
         {
-          "value": "<div>hello, <b>my name is</b> jQuery.</div>"
+          "articleType":2,
+          "url":"https://www.toutiao.com/i6815845243636714756",
+          "title":"",
+          "releaseTime":""
         }
       ]
     }

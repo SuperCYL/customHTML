@@ -40,9 +40,17 @@ module.exports = Event.extend(function Base(container, config) {
     console.log(data)
     var cfg = this.mergeConfig(config);
     //更新图表
-    //this.chart.render(data, cfg);
     var html = `<div style="width:100%;">`
-    html += `${data[0]["value"]}`
+    if(data.articleType == 1 ){
+      html += `${data[0]["value"]}`
+    }
+    else if(data.articleType == 2){
+      html += `<iframe width="100% "height="500px" src="${data.url}" />`
+    }
+    else if(data.articleType == 3){
+      html += `<video src="${data.url}"></video>`
+    }
+    
     html += `</div>`
     
     this.container.html(html);
