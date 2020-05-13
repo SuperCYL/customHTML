@@ -1,13 +1,13 @@
 {
-  "name": "@namespace/customHtml",
-  "version": "0.0.1",
+  "name": "@hk-componentPackage/shengMatrixDetail",
+  "version": "0.0.2",
   "dependencies": {
     "bcore": "0.0.18",
     "jquery": "2.1.4",
     "lodash": "4.6.1"
   },
   "datav": {
-    "cn_name": "customHtml",
+    "cn_name": "shengMatrixDetail",
     "icon": "",
     "protocol": 2,
     "type": [

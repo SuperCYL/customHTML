@@ -40,7 +40,7 @@ module.exports = Event.extend(function Base(container, config) {
     console.log(data)
     var cfg = this.mergeConfig(config);
     //更新图表
-    var html = `<div style="width:100%;">`
+    var html = `<div id="shengMatrixDetail" style="width:100%;">`
     if(data.articleType == 1 ){
       html += `${data[0]["value"]}`
     }
